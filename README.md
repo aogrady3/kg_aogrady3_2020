@@ -41,7 +41,7 @@ To build the heap I used an array to represent my heap using the following to fo
 
 **Parameters:** Takes in an array on integers
 
-**Return Value:**Array that represents a MaxHeap
+**Return Value:** Array that represents a MaxHeap
 
 ### siftDown(currentIndex, endIndex, heap)
 

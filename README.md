@@ -22,14 +22,14 @@ The `MaxHeap` follows the rule that every value of each node is less than or equ
 
 Below is a breakdown of the functions and classes I used to solve this problem. 
 
-### Class MaxHeap
+## Class MaxHeap
 
 The class `MaxHeap` is a heap I created to assit with this problem it follows the two basic rules for a heap:
 
 1. The tree must always be complete
 2. Every value of each node is less than or equal to the value of its parent, with the maximum-value element at the root
 
-#### buildHeap(array)
+### buildHeap(array)
 
 To build the heap I used an array to represent my heap using the following to formulas to represent a child and parent node. As I build the heap I call `siftDown()` to put it in it's correct place on the heap.
 
@@ -43,7 +43,7 @@ Parameters: Takes in an array on integers
 
 Return Value:Array that represents a MaxHeap
 
-#### siftDown(currentIndex, endIndex, heap)
+### siftDown(currentIndex, endIndex, heap)
 
 Will correctly place the currenIndex in the right place of the heap
 
@@ -51,16 +51,16 @@ Parameters: Takes in an index, end index and array
 
 Return Value: Array with currentIndex in correct place
 
-#### peek() 
+### peek() 
 
 Returns the max value from the Heap.
 
-#### changeValue(index, value)
+### changeValue(index, value)
 
 Takes in a `value` and replaces the `index` on the heap with that `value`
 
 
-### Function isOneToOneMappable()
+## Function isOneToOneMappable()
 
 The main function of the program. Takes in two different strings from the command line, and will determine if there is a One to One mapping from `strOne` to `strTwo`.
 

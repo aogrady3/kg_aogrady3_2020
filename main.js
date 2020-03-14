@@ -9,8 +9,12 @@ const MaxHeap = require('./maxHeap')
  * Main function takes in two strings from command line and prints results
  */
 
-function isOneToOneMappable(strOne, strTwo) {
-    // console.log(process.argv.slice(2))
+function isOneToOneMappable() {
+    let input = process.argv.slice(2)
+    if(input.length < 2) return 'Please enter two character seperated by single space'
+    
+    let strOne = input[0]
+    let strTwo = input[1]
 
     let strOneHash = {}
     let strTwoHash = {}
@@ -64,14 +68,8 @@ function isOneToOneMappable(strOne, strTwo) {
 
 }
 
-console.log(isOneToOneMappable('haaqqt', 'pootyt'))
-console.log(isOneToOneMappable('pootyt', 'haaqxt'))
-console.log(isOneToOneMappable('foo', 'bar'))
-console.log(isOneToOneMappable('bar', 'foo'))
-console.log(isOneToOneMappable('123', '321'))
-console.log(isOneToOneMappable('aaaqqxlm', 'xxxxtppl'))
-console.log(isOneToOneMappable('xxxxtppl', 'aaaqqxlm'))
-console.log(isOneToOneMappable('aaaqqxlm', 'xxxxtpl'))
+console.log(isOneToOneMappable())
+
 
 
 

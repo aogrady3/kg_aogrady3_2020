@@ -1,8 +1,8 @@
 ## Function Overview
 
-The main task was to create a one to one mapping between `strOne` to `strTwo`. This means that a string like 'abc' could map to a string 'def' because a -> d, b-> e, c->f. Additionally string like 'foo' could not map to 'bar' becuase 'o' cannot map to two characters, although 'bar' could map to 'foo' for there would be enough characters from bar to foo. 
+The main task was to create a one to one mapping between `strOne` to `strTwo`. This means that a string like 'abc' could map to a string 'def' because `a -> d`, `b-> e`, `c->f`. Additionally string like 'foo' could not map to 'bar' becuase 'o' cannot map to two characters, although 'bar' could map to 'foo' for there would be enough characters from bar to foo. 
 
-Diving deeper into my understanding of the problem strings like 'aabc' would map to 'defd' and more complex strings like 'aaaqqxlm' would map to 'xxxxtppl' but not vice-versa. This is because a -> x, q -p, l -> t, m -> l, x -> x would only work one way. 
+Diving deeper into my understanding of the problem strings like 'aabc' would map to 'defd' and more complex strings like 'aaaqqxlm' would map to 'xxxxtppl' but not vice-versa. This is because `a -> x`, `q -p`, `l -> t`, `m -> l`, `x -> x` would only work one way. 
 
 ## Approach
 

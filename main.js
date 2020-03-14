@@ -11,8 +11,8 @@ const MaxHeap = require('./maxHeap')
 
 function isOneToOneMappable() {
     let input = process.argv.slice(2)
-    if(input.length < 2) return 'Please enter two character seperated by single space'
-    
+    if(input.length < 2) return 'Please enter two characters seperated by single space'
+
     let strOne = input[0]
     let strTwo = input[1]
 

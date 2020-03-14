@@ -39,17 +39,17 @@ To build the heap I used an array to represent my heap using the following to fo
 2. A parent node of a child is represented with the following:
     - Math.floor((`currentIndex` - 1) / 2 )
 
-Parameters: Takes in an array on integers
+**Parameters:** Takes in an array on integers
 
-Return Value:Array that represents a MaxHeap
+**Return Value:**Array that represents a MaxHeap
 
 ### siftDown(currentIndex, endIndex, heap)
 
 Will correctly place the currenIndex in the right place of the heap
 
-Parameters: Takes in an index, end index and array
+**Parameters:** Takes in an index, end index and array
 
-Return Value: Array with currentIndex in correct place
+**Return Value:** Array with currentIndex in correct place
 
 ### peek() 
 

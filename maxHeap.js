@@ -1,9 +1,7 @@
 /**
  *    Max Heap Class Definition
  *    
- *    Followed the basic heap conventions while creating this heap. 
- *     1. 
- *     2.
+ *    
  */
 
 class MaxHeap {
